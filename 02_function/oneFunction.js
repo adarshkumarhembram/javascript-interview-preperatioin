@@ -35,14 +35,32 @@
 // addNumbers(1,2)
 // addNumbers(1,2,3)
 
-function addNumbers(){
-    let sum = 0;
-    for(let i=0; i< arguments.length; i++){
-        sum += arguments[i]
-    }
-    return sum;
+// function addNumbers(){
+//     let sum = 0;
+//     for(let i=0; i< arguments.length; i++){
+//         sum += arguments[i]
+//     }
+//     return sum;
     
-}
+// }
 
-const result = addNumbers(1,2)
-console.log(result);
+// const result = addNumbers(1,2)
+// console.log(result);
+
+// const addtwoNumbers = (a,b) =>(
+//     a+b
+// )
+// const result = addtwoNumbers(2,3)
+// console.log(result);
+
+
+// this context
+
+const person = {
+    name: "Mithun",
+    sayhello: function(){
+        console.log(this.name);
+        
+    }
+}
+person.sayhello()
