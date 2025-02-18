@@ -5,7 +5,6 @@
 //     console.log(n);
 
 //     printNumbers(n-1)
-    
 // }
 
 // // printNumbers(5)
@@ -13,7 +12,6 @@
 // function add(initialValue, valueToBeAdded){
 //     return initialValue + valueToBeAdded
 //     console.log(initialValue);
-    
 // }
 
 // function subtract(initialValue, valueToBeSubtracted){

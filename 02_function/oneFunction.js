@@ -4,10 +4,9 @@
 // console.log('hello world');
 
 // function sayhi(){
-//     console.log('Hello all');
+//     console.log('Hello all');                                               
 //     console.log("it's been nice meeting you all");
-    
-    
+        
 // }
 // sayhi()
 
@@ -56,11 +55,11 @@
 
 // this context
 
-const person = {
-    name: "Mithun",
-    sayhello: function(){
-        console.log(this.name);
+// const person = {
+//     name: "Mithun",
+//     sayhello: function(){
+//         console.log(this.name);
         
-    }
-}
-person.sayhello()
+//     }
+// }
+// person.sayhello()

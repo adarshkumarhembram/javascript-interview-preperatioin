@@ -1,4 +1,5 @@
 //  Global scope
+
 const a = 'Mithun'
 console.log(a);
 
@@ -6,12 +7,11 @@ console.log(a);
 
 function sayhi(){
     console.log(a);
-    
+     
 }
 sayhi()
+
 // Block Scope
 {
     console.log(a);    
 }
-
-

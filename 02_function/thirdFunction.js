@@ -12,11 +12,13 @@
 //     }
 // )()
 
+
 // function addNumbers(a,b){
 //     return a+b
 // }
 // console.log(addNumbers(1,2));
 // console.log(addNumbers(4,5));
+
 
 // let count = 0;
 
@@ -24,6 +26,7 @@
 //     count++
 //     return count 
 // }
+
 
 // // console.log(count);
 
