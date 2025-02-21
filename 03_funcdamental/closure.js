@@ -5,7 +5,6 @@
 //     return function (){
         
 //         console.log(a);
-        
 //     }
 // }
 
@@ -14,17 +13,17 @@
 // counter()()
 // counter()()
 
-function counter (){
-    let count = 0;
-    return function(){
-        count++
-        console.log(count);
+// function counter (){
+//     let count = 0;
+//     return function(){
+//         count++
+//         console.log(count);
         
-    }
-}
+//     }
+// }
 
-const counterFn = counter()
+// const counterFn = counter()
 
-counterFn()
-counterFn()
-counterFn()
+// counterFn()
+// counterFn()
+// counterFn()
